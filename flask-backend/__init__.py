@@ -1,2 +1,2 @@
 from flask import Flask
-from .main.py import app
+from .app.py import app

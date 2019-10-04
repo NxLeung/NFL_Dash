@@ -6,7 +6,7 @@ from flask_cors import CORS
 import pandas as pd
 
 
-app = flask.Flask("__main__")
+app = flask.Flask("__name__")
 CORS(app)
 
 @app.route("/")
@@ -25,5 +25,9 @@ FROM
     playerData = playerData.to_json(orient='records')
  
     return playerData
+
+@app.route("/test")
+def test():
+    return flask.render_template("test.html")
 
 app.run(debug=True)

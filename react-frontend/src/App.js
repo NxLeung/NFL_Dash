@@ -111,9 +111,20 @@ export default class App extends PureComponent {
 
     return (
       <div className="container-fluid">
+        <div
+          id="topnav"
+          className="navbar navbar-expand-lg navbar-light bg-light"
+        >
+          <a className="navbar-brand" href="#">
+            Data Portfolio
+          </a>
+        </div>
         <div className="row">
           <div className="col-sm-2 d-none d-md-block bg-light sidebar">
             <div className="sidebar-sticky" id="sidebar">
+              <div className="row justify-content-center">
+                <h6>Click on Player Name</h6>
+              </div>
               <SearchInput textChange={this.handleSearchChange} />
               <PlayerResults
                 playerData={this.state.filteredPlayer}
@@ -123,10 +134,6 @@ export default class App extends PureComponent {
           </div>
 
           <main role="main" className="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
-            <div className="chartjs-size-monitor">
-              <div className="chartjs-size-monitor-expand"></div>
-              <div className="chartjs-size-monitor-shrink"></div>
-            </div>
             {/* <div className="row">
               <div className="col-sm-12">
                 <SummaryTable id="summary" {...this.state} />
