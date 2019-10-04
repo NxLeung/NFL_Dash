@@ -1,6 +1,7 @@
 import flask
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import create_engine
+from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from flask_cors import CORS
 import pandas as pd
@@ -21,9 +22,7 @@ Base = automap_base()
 Base.prepare(db.engine, reflect=True)
 
 # Save references to each table
-Player = Base.classes.Player
-
-db = SQLAlchemy(app)
+player = Base.classes.player_sum
 heroku = Heroku(app)
 
 
