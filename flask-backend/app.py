@@ -25,8 +25,6 @@ Base.prepare(db.engine, reflect=True)
 player = Base.classes.player_sum
 heroku = Heroku(app)
 
-
-
 CORS(app)
 
 @app.route("/")
