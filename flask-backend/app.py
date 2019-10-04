@@ -10,7 +10,7 @@ from flask import render_template
 import json
 import sys
 
-app = flask.Flask("__name__", template_folder="./templates")
+app = flask.Flask("__name__", template_folder="./flask-backend/templates")
 
 # app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 # app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://postgres:postgres@localhost/nfl_player_summaries"
