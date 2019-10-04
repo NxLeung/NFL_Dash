@@ -11,18 +11,18 @@ import sys
 
 app = flask.Flask("__name__")
 
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://postgres:postgres@localhost/nfl_player_summaries"
-db = SQLAlchemy(app)
+# app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+# app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://postgres:postgres@localhost/nfl_player_summaries"
+# db = SQLAlchemy(app)
 
-# reflect an existing database into a new model
-Base = automap_base()
+# # reflect an existing database into a new model
+# Base = automap_base()
 
-# reflect the tables
-Base.prepare(db.engine, reflect=True)
+# # reflect the tables
+# Base.prepare(db.engine, reflect=True)
 
-# Save references to each table
-player = Base.classes.player_sum
+# # Save references to each table
+# player = Base.classes.player_sum
 heroku = Heroku(app)
 
 CORS(app)
