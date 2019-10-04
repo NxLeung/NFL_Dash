@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/react/css/main.3dff7606.chunk.css",
-    "main.js": "/static/react/js/main.97ac7c46.chunk.js",
-    "main.js.map": "/static/react/js/main.97ac7c46.chunk.js.map",
-    "runtime-main.js": "/static/react/js/runtime-main.dacdcd41.js",
-    "runtime-main.js.map": "/static/react/js/runtime-main.dacdcd41.js.map",
-    "css/2.22a7d4ef.chunk.css": "/static/react/css/2.22a7d4ef.chunk.css",
-    "js/2.c060a7b8.chunk.js": "/static/react/js/2.c060a7b8.chunk.js",
-    "js/2.c060a7b8.chunk.js.map": "/static/react/js/2.c060a7b8.chunk.js.map",
-    "../../templates/index.html": "/static/react/../../templates/index.html",
-    "css/2.22a7d4ef.chunk.css.map": "/static/react/css/2.22a7d4ef.chunk.css.map",
-    "css/main.3dff7606.chunk.css.map": "/static/react/css/main.3dff7606.chunk.css.map",
-    "precache-manifest.1cb517e77775b9b89d586016579fc1df.js": "/static/react/precache-manifest.1cb517e77775b9b89d586016579fc1df.js",
-    "service-worker.js": "/static/react/service-worker.js"
+    "main.css": "flask-backend/static/react/css/main.3dff7606.chunk.css",
+    "main.js": "flask-backend/static/react/js/main.a91a488c.chunk.js",
+    "main.js.map": "flask-backend/static/react/js/main.a91a488c.chunk.js.map",
+    "runtime-main.js": "flask-backend/static/react/js/runtime-main.7c76fb04.js",
+    "runtime-main.js.map": "flask-backend/static/react/js/runtime-main.7c76fb04.js.map",
+    "css/2.22a7d4ef.chunk.css": "flask-backend/static/react/css/2.22a7d4ef.chunk.css",
+    "js/2.c060a7b8.chunk.js": "flask-backend/static/react/js/2.c060a7b8.chunk.js",
+    "js/2.c060a7b8.chunk.js.map": "flask-backend/static/react/js/2.c060a7b8.chunk.js.map",
+    "../../templates/index.html": "flask-backend/static/react/../../templates/index.html",
+    "css/2.22a7d4ef.chunk.css.map": "flask-backend/static/react/css/2.22a7d4ef.chunk.css.map",
+    "css/main.3dff7606.chunk.css.map": "flask-backend/static/react/css/main.3dff7606.chunk.css.map",
+    "precache-manifest.82341b386858c638f467e3183b5d0753.js": "flask-backend/static/react/precache-manifest.82341b386858c638f467e3183b5d0753.js",
+    "service-worker.js": "flask-backend/static/react/service-worker.js"
   }
 }
