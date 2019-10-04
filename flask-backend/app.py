@@ -6,6 +6,7 @@ from sqlalchemy.orm import Session
 from flask_cors import CORS
 import pandas as pd
 from flask_heroku import Heroku
+from flask import render_template
 import json
 import sys
 
@@ -29,7 +30,7 @@ CORS(app)
 
 @app.route("/")
 def my_index():
-    return flask.render_template("index.html")
+    return render_template("index.html")
 
 @app.route('/data/<selectedOption>')
 def playerData (selectedOption):
@@ -46,7 +47,7 @@ FROM
 
 @app.route("/test")
 def test():
-    return flask.render_template("test.html")
+    return render_template("test.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
