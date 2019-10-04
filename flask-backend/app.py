@@ -4,6 +4,13 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import Session
 from flask_cors import CORS
 import pandas as pd
+from flask_heroku import Heroku
+import json
+import sys
+
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+db = SQLAlchemy(app)
+heroku = Heroku(app)
 
 
 app = flask.Flask("__name__")
